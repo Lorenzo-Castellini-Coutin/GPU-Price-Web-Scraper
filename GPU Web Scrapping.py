@@ -14,10 +14,9 @@ driver.get(URL)
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-results = soup.find_all('div', {'class' : 'item-container'})
+GPUs = soup.find_all('div', {'class' : 'item-container'})
 
-print(results[0])
-
+prices = soup.find_all('strong')
 
 
 
