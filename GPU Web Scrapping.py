@@ -16,7 +16,20 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 GPUs = soup.find_all('div', {'class' : 'item-container'})
 
-prices = soup.find_all('strong')
+prices_div = soup.find('li', class_ = 'price-current')
+
+prices_res = prices_div.find_all('strong')
+
+for p in prices_res:
+    print(p.text)
+
+
+
+
+
+ 
+
+
 
 
 
