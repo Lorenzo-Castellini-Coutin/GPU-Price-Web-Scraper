@@ -14,14 +14,29 @@ driver.get(URL)
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-GPUs = soup.find_all('div', {'class' : 'item-container'})
+GPUs = soup.find_all('a', {'class' : 'item-title'})
 
-prices_div = soup.find('li', class_ = 'price-current')
+for g in GPUs:
+    print(g.get_text())
 
-prices_res = prices_div.find_all('strong')
+prices = soup.find_all('li', {'class' : 'price-current'})
 
-for p in prices_res:
-    print(p.text)
+for p in prices:
+    price_tag = p.find('strong')
+
+    if price_tag:
+        print("$" + str(price_tag.get_text()))
+
+links = soup.find_all('a', {'class' : 'item-title'})
+
+for l in links:
+    full_links = l.get('href')
+    print(full_links)
+
+
+
+
+
 
 
 
