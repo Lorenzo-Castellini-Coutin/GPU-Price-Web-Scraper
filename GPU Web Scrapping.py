@@ -25,7 +25,6 @@ def web_scrape(Basic_URL, num_of_pages):
 
             soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-    
             GPUs = soup.find_all('a', {'class' : 'item-title'})
 
             for g in GPUs:
