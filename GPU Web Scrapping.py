@@ -61,7 +61,7 @@ def web_scrape(Basic_URL, num_of_pages):
 web_scrape(Basic_URL, num_of_pages)
 
 
-
+#Author: Lorenzo Castellini Coutin
 
 
 
