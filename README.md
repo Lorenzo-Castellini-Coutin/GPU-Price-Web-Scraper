@@ -6,4 +6,4 @@ This Python script scrapes the Newegg website, specifically the RTX 4070 GPU sho
 ### Usage
 In order to run this script locally on your machine, make sure you have all of the libraries used installed in your machine.
 ### Advisory
-This script is designed to only extract data, and is not intended for other purposes which might violated the site's terms of service.
+This script is designed to only extract data, and is not intended for other purposes which might violate the site's terms of service.
