@@ -11,6 +11,6 @@ The script uses the BeautifulSoup library, alongside the selenium library in ord
 ### Usage
 In order to run this script locally on your machine, make sure you have all of the libraries used installed in your machine. Furthermore, the user must specify the amount of pages the script will scrape the info within the website, through the terminal. Furthemore, this script is only compatible with Chrome browsers.
 ### Advisory on Usage
-This script is designed to only extract data, and is not intended for other purposes which might violate the site's terms of service.
+This script is designed to only extract data, and is not intended for other purposes which might violate the site's terms of service. Furthermore, make sure to read the license found in this repository before usage.
 ### Additional Notes
 The csv file created contains both standalone RTX 4070 GPUs, as well as pre-built gaming PCs that use the RTX 4070 as the GPU. Furthermore, this script can be used for any other GPU model or item within the Newegg.com website, by changing the base url.
