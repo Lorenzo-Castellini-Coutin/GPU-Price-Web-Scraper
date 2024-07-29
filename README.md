@@ -15,4 +15,4 @@ In order to run this script locally on your machine, make sure you have all of t
 This script is designed to only extract data, and is not intended for other purposes which might violate the site's terms of service. Furthermore, make sure to read the license found in this repository before usage.
 
 ### Additional Notes
-This script can be used for any other GPU model or item within the Newegg.com website, by changing the base url, and some other few aspects.
+This script can be used for any other GPU model or item within the Newegg.com website, by changing the base url, and some other few aspects. Furthermore, this project was developed for educative purposes, and it is not intended to be used in such a way that violates laws/policies.
